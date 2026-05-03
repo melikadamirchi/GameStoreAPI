@@ -1,0 +1,26 @@
+Get http://localhost:5024/games
+
+
+###
+Get http://localhost:5024/games/1
+
+###
+Post http://localhost:5024/games
+Content-Type: application/json
+
+{
+    "name": "New Game",
+    "description": "This is a new game.",
+    "price": 29.99
+}
+
+###
+Put http://localhost:5024/games/1
+Content-Type: application/json
+
+{
+   "name": "The Legend of Zelda: Breath of the Wild",
+    "description": "An open-world adventure game set in the kingdom of Hyrule.",
+    "price": 59.99
+}
+
